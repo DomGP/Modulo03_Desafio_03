@@ -17,7 +17,7 @@ function pintar(ele, color='green'){
 pintar(element)
 
 element.addEventListener('click', function(){
-    element.style.backgroundColor = 'yellow'
+    pintar(element, 'yellow');
 })
 
 
