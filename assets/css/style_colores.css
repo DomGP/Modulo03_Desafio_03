@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+.cubosStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#div1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 2px;
+
+}
+#div2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 2px;
+}
+#div3{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 2px;
+}
+#div4{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 2px;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 10em;
+    color: white;
+    background-color: lightskyblue;
+    border: 1px solid lightslategray;
+    padding: 8px;
+    border-radius: 10px;
+}
+button:active{
+    background-color: lightblue;
+}
