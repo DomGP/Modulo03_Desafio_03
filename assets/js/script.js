@@ -2,9 +2,7 @@
 
 let elemento = document.getElementById('ele')
 
-elemento.addEventListener('click', ()=>{
-    elemento.style.backgroundColor = 'yellow'
-})
+elemento.addEventListener('click', ()=> elemento.style.backgroundColor = 'yellow')
 
 
 //2.3 Se modifica el codigo anterior, donde se pasa un color al hacer click, pero tiene color verde por defecto
@@ -16,9 +14,7 @@ function pintar(ele, color='green'){
 }
 pintar(element)
 
-element.addEventListener('click', function(){
-    pintar(element, 'yellow');
-})
+element.addEventListener('click', ()=> pintar(element, 'yellow'))
 
 
 
